@@ -1,0 +1,70 @@
+body, html {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.container {
+    background: linear-gradient(135deg, #277997, #9bebf4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.content {
+    text-align: center;
+    background-color: #d8ffec;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgb(86, 86, 86);
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input [type="email"]{
+    padding: 0.5rem;
+    border-radius: 5px solid #000000;
+    margin-bottom: 1rem;
+    border-style: double;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: #b0ecce;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) ;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+svg {
+    position: absolute;
+}
